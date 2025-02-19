@@ -17,7 +17,7 @@ def congruence(a, b, m):
 
 a = int(input("Enter the coefficient a: "))
 b = int(input("Enter the constant b: "))
-m = int(input("Enter the modulo m: "))
-sol = congruence(a, b, m)
+mod = int(input("Enter the modulo m: "))
+sol = congruence(a, b, mod)
 if sol is not None:
     print(f"The solution to {a}x ≡ {b} (mod {m}) is: {sol}")
