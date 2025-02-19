@@ -16,12 +16,12 @@ def calculateAInverse(matrix, firstNum, secondNum):
     return x, y 
 
 
-firstEquation = [1, 2, 5]
+firstEquation = [2, 2, 5]
 secondEquation = [3, 4, 6]
 
 matrix = [
     [1, 2],
-    [3, 4]
+    [3, 5]
 ]
 
 x, y = calculateAInverse(matrix, firstEquation, secondEquation)
