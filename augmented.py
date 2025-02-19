@@ -1,18 +1,18 @@
 from copy import deepcopy
 import numpy as np
 
-A = [
+Arr = [
     [1, 2, -1],
     [-2, 2, 3],
     [2, 4, 4]
 ]
 B = [6, 3, 4]
 
-AB = deepcopy(A)
-for i in range(len(A)):
+AB = deepcopy(Arr)
+for i in range(len(Arr)):
     AB[i].append(B[i])
 
-rankA = np.linalg.matrix_rank(A)
+rankA = np.linalg.matrix_rank(Arr)
 rankAB = np.linalg.matrix_rank(AB)
 numVar = len(A[0])
 
