@@ -1,4 +1,4 @@
-def calculateLinear(firstNum, secondNum):
+def calLinear(firstNum, secondNum):
     d = (firstNum[0]*secondNum[1])-(secondNum[0]*firstNum[1])
     d1 = (firstNum[2]*secondNum[1])-(secondNum[2]*firstNum[1])
     d2 = (firstNum[0]*secondNum[2])-(secondNum[0]*firstNum[2])
@@ -8,7 +8,7 @@ def calculateLinear(firstNum, secondNum):
 firstEquation = [1, 1, 3]
 secondEquation = [1, -1, 1]
 
-d, d1, d2 = calculateLinear(firstEquation, secondEquation)
+d, d1, d2 = calLinear(firstEquation, secondEquation)
 
 if (d==0 and d1!=0 and d2!=0):
     print("No Solution")
