@@ -5,7 +5,7 @@ def calLinear(firstNum, secondNum):
     
     return d, d1, d2
 
-firstEquation = [1, 1, 3]
+firstEquation = [2, 1, 3]
 secondEquation = [1, -1, 1]
 
 d, d1, d2 = calLinear(firstEquation, secondEquation)
